@@ -8,9 +8,8 @@
   </head>
   <body>
     <header>
-    
       <div class="hero">
-        <video controls autoplay muted loop>
+        <video width="100%" height="100%" controls autoplay muted loop>
           <source
             src="./video/production_id_5189561 (720p).mp4"
             type="video/mp4"
@@ -18,33 +17,74 @@
         </video>
 
         <nav>
-            <ul class="main">
-                <li class="home">
-                    <a href="#">Home</a>
-                </li>
-                <li class="about">
-                    <a href="#">About Us</a>
-                </li>
-                <li class="gallery"> 
-                    <a href="#">Gallery</a>
-                    <ul class="subgallery">
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Videos</a></li>
-                        <li><a href="#">Photoes</a></li>
-                    </ul>
-                </li>
-                <li class="blog">
-                    <a href="#">Blog</a>
-                </li>
-                <li class="signin">
-                    <a href="#">Contact Us</a>
-                </li>
-                <li>
-                    <a href="#">Sign in</a>
-                </li>
-            </ul>
+          <ul class="main">
+            <li class="home">
+              <a href="#">Home</a>
+            </li>
+            <li class="about">
+              <a href="#">About Us</a>
+            </li>
+            <li class="gallery">
+              <a href="#">Gallery</a>
+              <ul class="subgallery">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Photoes</a></li>
+              </ul>
+            </li>
+            <li class="blog">
+              <a href="#">Blog</a>
+            </li>
+            <li class="signin">
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">Sign in</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
+    <div class="photo">
+      <img src="./image/pexels-photo-20409053.jpeg" alt="" />
+    </div>
+    <div class="form">
+      <form action="post">
+        <div class="heading">
+          <h1>Register form</h1>
+        </div>
+        <label for="fname">First Name</label><br />
+        <input
+          type="text"
+          name="Your Name"
+          id="fname"
+          placeholder="First name"
+        /><br />
+        <label for="lname">Last Name</label><br />
+        <input
+          type="text"
+          placeholder="Last Name"
+          id="lname"
+          name="last name"
+        /><br />
+        <label for="email">Email ID</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email ID"
+        /><br />
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        /><br />
+        <label for="phone">Phone</label><br />
+        <input type="tel" name="phone" id="phone" placeholder="Phone" /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
